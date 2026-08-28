@@ -23,7 +23,7 @@ do_configure () {
 }
 
 do_compile () {
-    oe_runmake CROSS_COMPILE="${TARGET_PREFIX}"
+    oe_runmake CC="${CC} ${LDFLAGS}"
 }
 
 do_install () {
