@@ -1,0 +1,23 @@
+From 959b3c7310fa1dfa283e75b3c00bafc3f039618a Mon Sep 17 00:00:00 2001
+From: Dariloo <darilo@local>
+Date: Wed, 2 Sep 2026 23:21:23 -0400
+Subject: [PATCH] Build only scull and misc-modules
+
+---
+ Makefile | 6 +-----
+ 1 file changed, 1 insertion(+), 5 deletions(-)
+
+diff --git a/Makefile b/Makefile
+index 7b08c49..fda1a2e 100644
+--- a/Makefile
++++ b/Makefile
+@@ -1,8 +1,4 @@
+-
+-SUBDIRS =  misc-progs misc-modules \
+-           skull scull scullc scullp lddbus sculld scullv shortprint simple tty \
+-	   pci usb\
+-	   sbull snull short
++SUBDIRS = misc-modules scull
+ 
+ all: subdirs
+ 
