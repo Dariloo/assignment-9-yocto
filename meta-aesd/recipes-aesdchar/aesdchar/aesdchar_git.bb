@@ -4,7 +4,7 @@ LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/MIT;md5=0835ade698e0bcf8506ecda
 SRC_URI = "git://git@github.com/Dariloo/aesd-assignments.git;protocol=ssh;branch=main            file://aesdchar-start-stop "
 
 PV = "1.0+git${SRCPV}"
-SRCREV = "7dcea8c32739bb9b157485747f58dd0ebba1e245"
+SRCREV = "e2d45b7cf2dbff2f1164d5cc9e995c79b65e3445"
 
 S = "${WORKDIR}/git/aesd-char-driver"
 
